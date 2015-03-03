@@ -8,4 +8,4 @@ RUN curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`
 
 RUN git clone https://github.com/maccam912/docker-titan-rexster
 
-CMD ["/bin/sh", "-e", "cd docker-titan-rexster && fig up"]
+CMD ["cd docker-titan-rexster && fig up"]
